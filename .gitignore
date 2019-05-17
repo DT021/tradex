@@ -1,12 +1,17 @@
-/settings.py
 *.pyc
 dist/
 *.egg-info/
 env
 .idea/
-bitmex/swagger_ui/node_modules/
-bitmex/swagger_ui/.idea/
+/bitmex/settings.py
+/bitmex/swagger_ui/node_modules/
+/bitmex/swagger_ui/.idea/
 /bitmex/auth.py
+
+/**/settings.py
+/**/node_modules/
+/**/.idea/
+/**/auth.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
